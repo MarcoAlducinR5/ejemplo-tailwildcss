@@ -2,7 +2,7 @@ import React from 'react';
 
 function Espacios(){
     return (
-        <div className='mx-4'>
+        <React.Fragment>
             <br />
             <h1 className='
                 h-32 w-1/5
@@ -20,7 +20,7 @@ function Espacios(){
                 border-blue-500 
                 placeholder-green-500" 
             type='text' placeholder='Lorem ipsum' />
-        </div>
+        </React.Fragment>
     );
 }
 
