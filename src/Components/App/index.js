@@ -1,3 +1,4 @@
+import { Espaciado } from '../Espaciado';
 import { Espacios } from '../Espacios';
 import { Grid } from '../Grid';
 import { Tipografia } from '../Tipografia';
@@ -22,6 +23,7 @@ function App() {
       <div className='mx-4'>
         <Espacios />
         <Tipografia />
+        <Espaciado />
       </div>
     </React.Fragment>
   );
