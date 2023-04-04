@@ -1,10 +1,14 @@
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <h1 className="text-6xl font-bold underline">
-      Hello world!
-    </h1>
+    <React.Fragment>
+      <h1 className="bg-yellow-500 text-red-600">
+        Hello world!
+      </h1>
+      <input className="border-2 border-blue-500 placeholder-green-500" type='text' placeholder='Lorem ipsum' />
+    </React.Fragment>
   );
 }
 
