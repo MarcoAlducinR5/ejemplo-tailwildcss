@@ -1,3 +1,4 @@
+import { Espacios } from '../Espacios';
 import { Grid } from '../Grid';
 import './App.css';
 import React from 'react';
@@ -17,6 +18,7 @@ function App() {
         placeholder-green-500" 
       type='text' placeholder='Lorem ipsum' />
       <Grid />
+      <Espacios />
     </React.Fragment>
   );
 }
