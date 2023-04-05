@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@responsive{
+    /* Girar un elemento 45 grados */
+    .rotate-45{
+        transform: rotate(45deg);
+    }
+}
+
+@variants hover{
+    /* acercar un objeto en 2x */
+    .zoom{
+        transform: scale(2);
+    }
+}

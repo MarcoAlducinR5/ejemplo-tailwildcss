@@ -4,6 +4,7 @@ import { Espacios } from '../Espacios';
 import { Flexbox } from '../Flexbox';
 import { Grid } from '../Grid';
 import { Tipografia } from '../Tipografia';
+import { Utilerias } from '../Utilerias';
 import './App.css';
 import React from 'react';
 
@@ -33,6 +34,7 @@ function App() {
       <div className='m-8'>
         <Flexbox />
       </div>
+      <Utilerias />
     </React.Fragment>
   );
 }
