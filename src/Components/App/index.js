@@ -34,7 +34,10 @@ function App() {
       <div className='m-8'>
         <Flexbox />
       </div>
-      <Utilerias />
+      <div className='mt-20 ml-20'>
+        <Utilerias />
+      </div>
+      <br />
     </React.Fragment>
   );
 }
