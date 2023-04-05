@@ -1,6 +1,7 @@
 import { Display } from '../Display';
 import { Espaciado } from '../Espaciado';
 import { Espacios } from '../Espacios';
+import { Flexbox } from '../Flexbox';
 import { Grid } from '../Grid';
 import { Tipografia } from '../Tipografia';
 import './App.css';
@@ -28,6 +29,9 @@ function App() {
       </div>
       <div className='mx-20'>
         <Display />
+      </div>
+      <div className='m-8'>
+        <Flexbox />
       </div>
     </React.Fragment>
   );
